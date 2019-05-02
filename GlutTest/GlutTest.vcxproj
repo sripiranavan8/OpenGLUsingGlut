@@ -76,7 +76,7 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\glew-1.11.0\include;$(SolutionDir)Dependencies\freeglut\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src/vendor;$(SolutionDir)Dependencies\glew-1.11.0\include;$(SolutionDir)Dependencies\freeglut\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <AdditionalLibraryDirectories>$(SolutionDir)Dependencies\glew-1.11.0\lib;$(SolutionDir)Dependencies\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
@@ -99,7 +99,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)Dependencies\glew-1.11.0\include;$(SolutionDir)Dependencies\freeglut\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>src/vendor;$(SolutionDir)Dependencies\glew-1.11.0\include;$(SolutionDir)Dependencies\freeglut\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
