@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Shapes\Circle.cpp" />
+    <ClCompile Include="src\Shapes\Ellipse.cpp" />
     <ClCompile Include="src\Shapes\Line.cpp" />
     <ClCompile Include="src\Shapes\Quads.cpp" />
     <ClCompile Include="src\Shapes\Squarecpp.cpp" />
@@ -138,6 +139,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Shapes\Circle.h" />
+    <ClInclude Include="src\Shapes\Ellipse.h" />
     <ClInclude Include="src\Shapes\Line.h" />
     <ClInclude Include="src\Shapes\Position.h" />
     <ClInclude Include="src\Shapes\Quads.h" />
