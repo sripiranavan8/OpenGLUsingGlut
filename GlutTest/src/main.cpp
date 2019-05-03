@@ -12,6 +12,11 @@
 #include "Shapes/Square.h"
 #include "Shapes/TestEllipse.h"
 
+#include "Lines/Bresenham.h"
+#include "Lines/DDA.h"
+
+#include "Curves/Bezier.h"
+
 Position start, finish;
 void TestMouse(int glut_button, int state, int x, int y)
 {
@@ -48,7 +53,7 @@ void TestMotion(int x, int y)
 static ImVec4 clear_color = ImVec4(0.45f, 0.55f, 0.60f, 1.00f);
 static float f = 0.0f;
 static int counter = 0;
-static const char *shapes[] = {"Line","Triangle","Quads","Square","Circle","Ellipse","Circle1"};
+static const char *shapes[] = { "Line","Triangle","Quads","Square","Circle","Ellipse","Circle1","DDA","Bresenham" };
 static const char *selectedItem = NULL;
 static bool clear_window = false;
 
@@ -119,12 +124,22 @@ void display()
 		else if (selectedItem == "Ellipse")
 		{
 			TestEllipse ellip;
-			ellip.DrawEllipse(start,finish);
+			ellip.DrawEllipse(start, finish);
 		}
 		else if (selectedItem == "Circle1")
 		{
 			TestEllipse ellip1;
-			ellip1.DrawCircle(start,finish);
+			ellip1.DrawCircle(start, finish);
+		}
+		else if (selectedItem == "Bresenham")
+		{
+			Bresenham bresen;
+			bresen.bresenham_spoke(start, finish);
+		}
+		else if (selectedItem == "DDA")
+		{
+			DDA dda;
+			dda.dda_star_draw(start, finish);
 		}
 	}
 	ImGui::End();
