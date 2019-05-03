@@ -51,7 +51,7 @@
     <ClCompile Include="src\Shapes\Squarecpp.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\Shapes\Ellipse.cpp">
+    <ClCompile Include="src\Shapes\TestEllipse.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -98,7 +98,7 @@
     <ClInclude Include="src\Shapes\Square.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\Shapes\Ellipse.h">
+    <ClInclude Include="src\Shapes\TestEllipse.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

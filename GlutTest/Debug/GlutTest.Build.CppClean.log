@@ -7,13 +7,14 @@ d:\program\opengl programs\gluttest\gluttest\debug\imgui_draw.obj
 d:\program\opengl programs\gluttest\gluttest\debug\imgui_demo.obj
 d:\program\opengl programs\gluttest\gluttest\debug\imgui.obj
 d:\program\opengl programs\gluttest\gluttest\debug\triangle.obj
+d:\program\opengl programs\gluttest\gluttest\debug\testellipse.obj
 d:\program\opengl programs\gluttest\gluttest\debug\squarecpp.obj
 d:\program\opengl programs\gluttest\gluttest\debug\quads.obj
 d:\program\opengl programs\gluttest\gluttest\debug\line.obj
 d:\program\opengl programs\gluttest\gluttest\debug\circle.obj
 d:\program\opengl programs\gluttest\gluttest\debug\main.obj
-d:\program\opengl programs\gluttest\debug\gluttest.exe
 d:\program\opengl programs\gluttest\debug\gluttest.ilk
+d:\program\opengl programs\gluttest\debug\gluttest.exe
 d:\program\opengl programs\gluttest\debug\gluttest.pdb
 d:\program\opengl programs\gluttest\gluttest\debug\gluttest.tlog\cl.command.1.tlog
 d:\program\opengl programs\gluttest\gluttest\debug\gluttest.tlog\cl.read.1.tlog

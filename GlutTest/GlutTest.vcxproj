@@ -125,10 +125,10 @@
   <ItemGroup>
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\Shapes\Circle.cpp" />
-    <ClCompile Include="src\Shapes\Ellipse.cpp" />
     <ClCompile Include="src\Shapes\Line.cpp" />
     <ClCompile Include="src\Shapes\Quads.cpp" />
     <ClCompile Include="src\Shapes\Squarecpp.cpp" />
+    <ClCompile Include="src\Shapes\TestEllipse.cpp" />
     <ClCompile Include="src\Shapes\Triangle.cpp" />
     <ClCompile Include="src\vendor\imgui\imgui.cpp" />
     <ClCompile Include="src\vendor\imgui\imgui_demo.cpp" />
@@ -139,11 +139,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Shapes\Circle.h" />
-    <ClInclude Include="src\Shapes\Ellipse.h" />
     <ClInclude Include="src\Shapes\Line.h" />
     <ClInclude Include="src\Shapes\Position.h" />
     <ClInclude Include="src\Shapes\Quads.h" />
     <ClInclude Include="src\Shapes\Square.h" />
+    <ClInclude Include="src\Shapes\TestEllipse.h" />
     <ClInclude Include="src\Shapes\Triangle.h" />
     <ClInclude Include="src\vendor\imgui\imconfig.h" />
     <ClInclude Include="src\vendor\imgui\imgui.h" />
