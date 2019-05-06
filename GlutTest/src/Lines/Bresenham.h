@@ -13,6 +13,6 @@ public:
 	Bresenham();
 	~Bresenham();
 
-	void bresenham_line(float x1, float y1, float x2, float y2);
-	void bresenham_spoke(Position start, Position finish);
+	void draw_pixel(int x, int y);
+	void draw_line(int x1, int x2, int y1, int y2);
 };

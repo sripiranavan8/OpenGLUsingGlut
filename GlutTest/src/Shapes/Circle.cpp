@@ -13,6 +13,7 @@ Circle::~Circle()
 
 void Circle::DrawCircle(Position start, Position finish)
 {
+	glClear(GL_COLOR_BUFFER_BIT);
 	double x = finish.x - start.x; //calculating number to square in next step
 	double y = finish.y - start.y;
 	double dist;

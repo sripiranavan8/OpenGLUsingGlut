@@ -33,8 +33,8 @@ void TestMouse(int glut_button, int state, int x, int y)
 
 	if (glut_button == GLUT_LEFT_BUTTON && state == GLUT_DOWN)
 	{
-		start.x = finish.x = x;
-		start.y = finish.y = y;
+		start.x = x;
+		start.y = y;
 	}
 	if (glut_button == GLUT_LEFT_BUTTON && state == GLUT_UP)
 	{
@@ -60,7 +60,6 @@ static bool clear_window = false;
 void display()
 {
 	glClearColor(1, 1, 1, 1);
-	glClear(GL_COLOR_BUFFER_BIT);
 
 	ImGui::Begin("Window");
 
@@ -134,13 +133,15 @@ void display()
 		else if (selectedItem == "Bresenham")
 		{
 			Bresenham bresen;
-			bresen.bresenham_spoke(start, finish);
+			bresen.draw_line(start.x,finish.x,start.y,finish.y);
+			glFlush();
 		}
 		else if (selectedItem == "DDA")
 		{
 			DDA dda;
 			dda.dda_star_draw(start, finish);
 		}
+		glPopMatrix();
 	}
 	ImGui::End();
 }

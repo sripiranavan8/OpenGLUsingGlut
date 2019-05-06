@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\Curves\Bezier.cpp" />
+    <ClCompile Include="src\Filling\BoundaryFill.cpp" />
     <ClCompile Include="src\Lines\Bresenham.cpp" />
     <ClCompile Include="src\Lines\DDA.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -142,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Curves\Bezier.h" />
+    <ClInclude Include="src\Filling\BoundaryFill.h" />
     <ClInclude Include="src\Lines\Bresenham.h" />
     <ClInclude Include="src\Lines\DDA.h" />
     <ClInclude Include="src\Shapes\Circle.h" />

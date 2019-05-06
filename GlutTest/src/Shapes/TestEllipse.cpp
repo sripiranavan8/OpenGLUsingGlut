@@ -91,6 +91,7 @@ void TestEllipse::Ellipse(int a, int b, int xc, int yc, float r, float g, float 
 
 void TestEllipse::DrawCircle(Position start, Position finish)
 {
+	glClear(GL_COLOR_BUFFER_BIT);
 	float x = float(finish.x - start.x); //calculating number to square in next step
 	float y = float(finish.y - start.y);
 	float dist;
@@ -98,7 +99,6 @@ void TestEllipse::DrawCircle(Position start, Position finish)
 	dist = pow(x, 2) + pow(y, 2);       //calculating Euclidean distance
 	dist = sqrt(dist);
 
-		glClear(GL_COLOR_BUFFER_BIT);
 		middy_circle(float(dist), float(start.x), float(start.y));
 		delay(2);
 
