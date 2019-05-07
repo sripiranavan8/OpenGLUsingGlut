@@ -132,9 +132,9 @@ void display()
 		}
 		else if (selectedItem == "Bresenham")
 		{
+			glClear(GL_COLOR_BUFFER_BIT);
 			Bresenham bresen;
 			bresen.draw_line(start.x,finish.x,start.y,finish.y);
-			glFlush();
 		}
 		else if (selectedItem == "DDA")
 		{
